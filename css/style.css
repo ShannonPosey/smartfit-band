@@ -13,7 +13,7 @@ body {
 
 header {
     /* background: #33fbff; */
-    background: url('./image/man-running.jpg') no-repeat;
+    background: url('image/man-running.jpg') no-repeat;
     background-size: cover;
     height: 500px;
 }
