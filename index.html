@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Smartfit band</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 <body>
     <header>
@@ -14,9 +19,9 @@
                 <nav class="menu">
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="features">Features</a></li>
-                        <li><a href="pricing">Pricing</a></li>
-                        <li><a href="order">Order Now</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#order">Order Now</a></li>
                     </ul>
                 </nav>
             </div>
@@ -34,7 +39,7 @@
         </div>
     </header>
     <div class="main-container">
-        <div id="features">
+        <div id="features" class="features">
             <div>
                 <h2 class="feat">Features and Benefits</h2>
             </div>
@@ -74,6 +79,10 @@
             </div>
         </div>
         <div id="pricing">
+            <div class="pricing-opt">
+                <h2>Pricing Option</h2>
+            </div>
+            <div class="prices">
             <div class="basic-price">
                 <h3 class="price-title">Barely Breaking a Sweat</h3>
                 <p class="product-cost">&#36;49.99</p>
@@ -101,21 +110,23 @@
                 </p>
                 <button class="buy-now">Buy Now</button>
             </div>
+            </div>
         </div>
-        <div id="cta">
-            <h2>Order Now</h2>
-            <p>
-                Take control of your fitness journey with the SmartFit Band! Choose
-                the plan that suits your lifestyle and start tracking your health like
-                never before. Get yours today and unlock the power of real-time health
-                insights, GPS tracking, and water-resistant durability. Don&#39;t
-                wait—elevate your fitness game with SmartFit!
+        <div id="order" class="cta">
+            <h2 class="cta-heading">Order Now</h2>
+            <p class="cta-desc">
+                Take control of your fitness journey with the SmartFit Band! </p>
+                <p class="cta-desc">Choose the plan that suits your lifestyle and start tracking your health like
+                never before.</p>
+                <p class="cta-desc"> Get yours today and unlock the power of real-time health
+                insights, GPS tracking, and water-resistant durability.</p>
+                <p class="cta-desc"> Don&#39;t wait—elevate your fitness game with SmartFit!
             </p>
-            <p>
+            <p class="cta-desc">
                 Order now and experience the difference—your healthier, fitter self is
                 just a click away!
             </p>
-            <button class="order-now">Get Started</button>
+            <button class="order-now-btn">Get Started</button>
         </div>
     </div>
 </body>
